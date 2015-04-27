@@ -2,6 +2,9 @@
 1: Drop all the files on their indicated locations.
 2: Go to server/player.cpp:
 
+-Include the header of point_keypad before the #include "tier0/memdbgon.h" line: 
+#include "point_keypad.h"
+
 -Find:
 
 	else if ( stricmp( cmd, "playerperf" ) == 0 )
